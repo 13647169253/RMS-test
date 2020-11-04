@@ -94,7 +94,9 @@ $(function () {
         layer.msg('发布文章成功！')
         // 发布文章成功后，跳转到文章列表页面
         location.href = '/article/article_list.html'
+        window.parent.document.querySelector(".layui-nav-child .list").click()
       }
     })
   }
+
 })

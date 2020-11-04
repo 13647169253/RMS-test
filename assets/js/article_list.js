@@ -99,7 +99,7 @@ $(function () {
       layout: ['count', 'limit', 'prev', 'page', 'next', 'skip'],
       limits: ['2', '5', '7', '10'],
       jump: function (obj, first) {
-        console.log(obj.curr)
+        // console.log(obj.curr)
         // 把最新的页码值，赋值到 q 这个查询参数对象中
         q.pagenum = obj.curr
         // 把最新的条目数，赋值到 q 这个查询参数对象的 pagesize 属性中
